@@ -1,0 +1,124 @@
+body {
+    background-color: #f7fbf7;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+.main-heading {
+    font-family: 'Georgia', serif;
+    color: #1a2340;
+    font-weight: bold;
+}
+
+
+.profile-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e8e2;
+    max-width: 500px;
+}
+
+
+.avatar-placeholder {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #b0c8e8;
+    border: 1px solid #7a9ec2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-head {
+    width: 36px;
+    height: 36px;
+    background-color: #6b8fb4;
+    border-radius: 50%;
+}
+
+.avatar-body {
+    width: 58px;
+    height: 28px;
+    background-color: #6b8fb4;
+    border-radius: 20px 20px 0 0;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-text {
+    font-size: 11px;
+    color: #ffffff;
+}
+
+
+.profile-name {
+    font-family: 'Georgia', serif;
+    color: #1a2340;
+    font-weight: bold;
+}
+
+.profile-subtitle {
+    color: #4d7c38;
+}
+
+.green-underline {
+    width: 80px;
+    height: 3px;
+    background-color: #4d7c38;
+    border-radius: 2px;
+}
+
+
+.btn-custom-green {
+    background-color: #437a34;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-weight: 500;
+    border: none;
+}
+
+.btn-custom-green:hover {
+    background-color: #36632a;
+    color: #ffffff;
+}
+
+.divider-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2b4c1e;
+    font-weight: bold;
+}
+
+.divider-container::before,
+.divider-container::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #a2bba0;
+}
+
+.divider-container:not(:empty)::before {
+    margin-right: 1rem;
+}
+
+.divider-container:not(:empty)::after {
+    margin-left: 1rem;
+}
+
+
+.practice-btn {
+    background-color: #ffffff;
+    border: 1px solid #8fad8a;
+    color: #111111;
+    font-weight: bold;
+    font-size: 0.85rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-align: center;
+}
